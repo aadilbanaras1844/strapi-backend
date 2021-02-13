@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_account_currencies_account_currencies",
+  "info": {
+    "name": "Account Currencies",
+    "icon": "arrow-alt-circle-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "group": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "account_types",
+  "info": {
+    "name": "Account Types"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "Platform": {
+      "type": "enumeration",
+      "enum": [
+        "MT5",
+        "MT4"
+      ]
+    },
+    "currencies": {
+      "type": "component",
+      "repeatable": true,
+      "component": "account-currencies.account-currencies"
+    }
+  }
+}
